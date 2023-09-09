@@ -1,0 +1,13 @@
+name: foliage
+title: foliage
+username: viztoy
+account: viztoy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9816451
+bundleId: 7665096
+url: https://viztoy.shinyapps.io/foliage/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app_proto.R|data/foliage-2023.json|foliage.r
