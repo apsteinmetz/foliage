@@ -90,6 +90,7 @@ ui <- fluidPage(
   theme = bslib::bs_theme(preset = "darkly"),
 
   titlePanel("U.S.A. Autumn Foliage 2023"),
+  h6("source: https://github.com/apsteinmetz/foliage.git"),
   
   # Sidebar with a slider input for weeks
   fluidRow(
