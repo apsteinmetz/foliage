@@ -212,10 +212,7 @@ ui <- fluidPage(
 
 # SERVER ----------------------------------------------------------------------
 server <- function(input, output) {
-  output$week_label <- renderText({
-    as.character(weeks[input$cur_week])
-  })
-  
+
   output$early_pct <- renderText({
     stage_pct(input$cur_week, "Too Early")
   })
