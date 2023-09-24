@@ -109,6 +109,7 @@ stage_pct <- function(cur_week = 1,
   }
 
 leaf_plot <- function(cur_week = 1) {
+  gg <- 
   foliage_sf |>
     dplyr::filter(week == as.character(weeks[cur_week])) |> 
   ggplot() +
@@ -142,6 +143,7 @@ leaf_plot <- function(cur_week = 1) {
         size = 14
       )
     )
+  return(gg)
 }
 
 # set up slider
